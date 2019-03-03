@@ -1,5 +1,6 @@
 # Endurance
 Repository for endurance (Scale, Performance) testing on KubeVirt.
+Uses openshift rest client (https://github.com/openshift/openshift-restclient-python)
 
 ## Scale testing 
 In order to run scale test you need to use the conf/scale_test.yaml
