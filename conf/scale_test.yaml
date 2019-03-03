@@ -1,0 +1,21 @@
+---
+current_test: "multi_node"
+vm_yaml: "manifests/cirros_vm.yaml"
+general:
+  oc_path: "/usr/bin/oc"
+  virtctl_path: "/usr/bin/virtctl"
+vm_info:
+  node_selector: True
+  running_state: False
+  vm_cpu: None
+  vm_memory: None
+constraints:
+    vm_offset: '0'
+    vm_lifecycle_action_list: 'stop'
+    vm_lifecycle_number_of_vms: '1'
+    node: 'cnv-executor-ipinto-node1.example.com'
+    max_number_of_vm_per_node: '3'
+    number_of_vms_in_interval: '3'
+    delay_between_intervals: '20'
+    ocp_scheduling_total_vms: '1100'
+

@@ -1,0 +1,18 @@
+# virtualenv
+
+# python
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+*.pyc
+.cache
+
+# pycharm
+.idea
+.iml
+
+
+# logs directory
+log/
+
